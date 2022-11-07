@@ -8,6 +8,7 @@
 
     <ImageView
         android:id="@+id/logo"
+        android:contentDescription="@string/logo_description"
         android:layout_width="match_parent"
         android:layout_height="120dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,9 +43,9 @@
         android:layout_marginStart="1dp"
         android:layout_marginBottom="20dp"
         android:hint="@string/enter_the_id_placeholder"
-        app:layout_constraintBottom_toTopOf="@id/next_button"
-        app:layout_constraintEnd_toEndOf="@id/next_button"
-        app:layout_constraintStart_toStartOf="@id/next_button">
+        app:layout_constraintBottom_toTopOf="@id/to_start_button"
+        app:layout_constraintEnd_toEndOf="@id/to_start_button"
+        app:layout_constraintStart_toStartOf="@id/to_start_button">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/enter_the_id_placeholder_edit_text"
@@ -54,10 +55,10 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/next_button"
+        android:id="@+id/to_start_button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/next_button"
+        android:text="@string/to_start_button"
         android:textAllCaps="false"
         app:layout_constraintBottom_toTopOf="@id/have_an_acc_button"
         app:layout_constraintEnd_toEndOf="@id/have_an_acc_button"
