@@ -8,9 +8,9 @@
 
     <ImageView
         android:id="@+id/logo"
-        android:contentDescription="@string/logo_description"
         android:layout_width="match_parent"
         android:layout_height="120dp"
+        android:contentDescription="@string/logo_description"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo_dark" />
@@ -40,7 +40,6 @@
         android:id="@+id/enter_the_id_placeholder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
         android:layout_marginBottom="20dp"
         android:hint="@string/enter_the_id_placeholder"
         app:layout_constraintBottom_toTopOf="@id/to_start_button"
