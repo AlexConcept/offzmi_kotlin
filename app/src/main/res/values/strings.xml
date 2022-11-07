@@ -14,4 +14,6 @@
     <string name="user_email_input">name@gmail.com</string>
     <string name="password_text">Пароль*</string>
     <string name="user_password_input">******</string>
+    <string name="privacy_policy_button">Політика конфіденціальності</string>
+    <string name="next_button">Далі</string>
 </resources>

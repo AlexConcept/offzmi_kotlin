@@ -7,6 +7,7 @@
     android:padding="16dp">
 
     <TextView
+        android:layout_marginTop="40dp"
         android:id="@+id/registration_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -117,5 +118,25 @@
             android:inputType="numberPassword" />
     </com.google.android.material.textfield.TextInputLayout>
 
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/next_button"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@id/privacy_policy"
+        app:layout_constraintEnd_toEndOf="@id/privacy_policy"
+        app:layout_constraintStart_toStartOf="@id/privacy_policy" />
+
+    <Button
+        android:id="@+id/privacy_policy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="@string/privacy_policy_button"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
