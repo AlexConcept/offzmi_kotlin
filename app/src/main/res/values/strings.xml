@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">OffZmi</string>
+    <string name="sign_in_question">Чи маєте ви ID запрошення?</string>
+    <string name="next_button">Далі</string>
+    <string name="have_acc_button">В мене вже є аккаунт</string>
+    <string name="enter_the_id_placeholder">Введіть ID ******</string>
+</resources>
